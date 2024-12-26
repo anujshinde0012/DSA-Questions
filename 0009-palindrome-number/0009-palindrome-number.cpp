@@ -4,7 +4,7 @@ public:
         if(x<0){
             return false;
         }
-        int reverse=0;
+        size_t reverse=0;
         int original =x;
         while (x!=0){
             int num = x %10; // last digit of the number!
