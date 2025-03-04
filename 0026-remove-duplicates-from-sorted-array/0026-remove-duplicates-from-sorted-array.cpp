@@ -13,11 +13,6 @@ public:
             }
             j++;
         }
-            // int new = nums[i];
-            // if(current!=new){
-            //     count++;
-            //     current=new;
-            // }
         return count;
     }
 };
